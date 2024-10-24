@@ -76,6 +76,7 @@ e.pack(pady=10)
 
 
 btn_history = Button(window, text="Посмотреть историю", font=("Arial", 16), command=show_history)
+btn_history.pack()
 
 
 window.mainloop()
